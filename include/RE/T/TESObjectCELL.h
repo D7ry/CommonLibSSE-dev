@@ -16,6 +16,7 @@
 #include "RE/T/TESForm.h"
 #include "RE/T/TESFullName.h"
 #include "RE/T/TESObjectREFR.h"
+#include "RE/B/BSTempEffectParticle.h"
 
 namespace RE
 {
@@ -248,6 +249,7 @@ namespace RE
 		LOADED_CELL_DATA*                         loadedData;        // 128
 		BGSLightingTemplate*                      lightingTemplate;  // 130 - LTMP
 		std::uint64_t                             unk138;            // 138
+		RE::BSTempEffectParticle*                 PlaceParticleEffect(float a_lifetime, const char* a_modelName, const NiMatrix3& a_normal, const NiPoint3& a_pos, float a_scale, std::uint32_t a_flags, NiAVObject* a_target);
 	};
 	static_assert(sizeof(TESObjectCELL) == 0x140);
 }
