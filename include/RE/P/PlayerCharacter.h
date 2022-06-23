@@ -315,8 +315,6 @@ namespace RE
 			GetEventSource<T>()->AddEventSink(a_sink);
 		}
 
-		
-
 		// members
 		mutable BSSpinLock                                      questTargetsLock;                             // 3D8
 		BSTHashMap<const TESFaction*, CrimeGoldStruct>          crimeGoldMap;                                 // 3E0

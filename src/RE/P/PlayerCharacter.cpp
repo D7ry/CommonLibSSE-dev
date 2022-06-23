@@ -130,7 +130,8 @@ namespace RE
 		return func(this);
 	}
 
-	RE::DIFFICULTY PlayerCharacter::getDifficultySetting() {
+	RE::DIFFICULTY PlayerCharacter::getDifficultySetting()
+	{
 		switch (difficulty) {
 		case 0:
 			return DIFFICULTY::kNovice;
