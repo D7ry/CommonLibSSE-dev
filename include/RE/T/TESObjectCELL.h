@@ -7,6 +7,7 @@
 #include "RE/B/BSTArray.h"
 #include "RE/B/BSTHashMap.h"
 #include "RE/B/BSTList.h"
+#include "RE/B/BSTempEffectParticle.h"
 #include "RE/C/Color.h"
 #include "RE/E/ExtraDataList.h"
 #include "RE/F/FormTypes.h"
@@ -16,7 +17,6 @@
 #include "RE/T/TESForm.h"
 #include "RE/T/TESFullName.h"
 #include "RE/T/TESObjectREFR.h"
-#include "RE/B/BSTempEffectParticle.h"
 
 namespace RE
 {
